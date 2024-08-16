@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+body {
+    background-color: #000000;
+}
+
+.header {
+    background-color: #000000;
+
+
+    background-position: right bottom, left;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+
+}
+
+.socal i {
+    margin-right: 20px;
+}
+
+.nav-links {
+    color: rgb(0, 247, 255);
+}
+
+/* Header and nav Style */
+.nav-title {
+    font-weight: 800;
+    font-size: 60px;
+    color: rgb(0, 255, 255);
+}
+
+/* .text-primary{
+    color: rgb(0, 255, 255);
+   
+} */
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+nav li {
+    margin-left: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 255, 234);
+}
+
+.primary-btn {
+    padding: 8px 24px;
+    background-color: rgb(0, 255, 255);
+    border: none;
+    border-radius: 5px;
+
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+
+.primary-btn {
+    box-shadow: 0 0 7px 7px rgba(0, 255, 255, 0.404);
+    border: 1px solid black;
+    transition: .5s;
+
+}
+
+.kiron {
+    height: 500px;
+
+}
+
+/* Banner Styles */
+.banner {
+    margin-right: 150px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-title {
+    color: rgb(0, 255, 255);
+    font-weight: 600;
+    font-size: 60px;
+    display: flex;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.banner-dis {
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+
+.youtube {
+    padding: 8px 24px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.Table_01 {
+    margin-top: 100px;
+
+    margin-left: 40%;
+}
+
+.developer-img {
+    display: flex;
+    align-items: center;
+}
+
+/* main */
+main {
+    margin-top: 100px;
+}
+
+.about {
+
+
+
+    background-color: #000000;
+
+    padding: 20px;
+
+    color: white;
+    margin: auto;
+}
+
+.des {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+
+.des img {
+    height: 500px;
+}
+
+.about-me {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-des {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.about-info-continer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.info-des {
+    font-size: 25;
+    justify-content: center;
+
+    color: aqua;
+}
+
+
+
+/* what I Do Style */
+.what-i-do {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.skill-cont {
+    display: flex;
+    gap: 40px;
+}
+
+.skill-titel {
+    font-weight: 700;
+    margin-top: 30;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.skill-dis {
+    font-size: 16px;
+    color: rgb(133, 132, 132);
+}
+
+.skill {
+    padding: 30px;
+    background-color: #faffff;
+    box-shadow: 0 10px 30px rgb(0, 255, 242);
+    background-color: #000000;
+    color: white;
+}
+
+section {
+    padding: 30px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: aqua;
+
+}
+
+
+/* my projects  */
+.my-project-heading {
+    color: aqua;
+    text-align: center;
+    font-size: 30px;
+}
+
+.my-project-card {
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 20px aqua;
+    padding: 10px;
+
+}
+
+.my-project-cards {
+    margin-top: 40px;
+}
+
+.my-project-card-img {
+    width: 300px;
+    height: 400px;
+}
+
+/* resume style */
+
+.resume-content {
+    display: flex;
+    gap: 18px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: aqua;
+
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+
+}
+
+.resumi-content h2 {
+    text-align: center;
+}
+
+.resumi-content {
+    margin-top: 100px;
+}
+
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.resume-item p {
+    color: aqua;
+}
+
+.contact-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-body p {
+    color: aqua;
+}
+
+.contact-heading {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.contact .contact-heading {
+    text-align: left;
+}
+
+.contact input,
+textarea {
+    margin-bottom: 20px;
+    resize: none;
+    background-color: #000000;
+    border: 2px solid white;
+    padding: 5px 15px;
+    color: white;
+
+}
+
+.contact .primary-btn {
+    color: rgb(0, 0, 0);
+}
+
+.call {
+    padding: 7px 24px;
+    background-color: transparent;
+    border: 2px solid rgb(0, 255, 255);
+    border-radius: 5px;
+    margin-left: 10px;
+    color: rgb(0, 255, 255);
+    font-weight: bold;
+
+}
+
+.primary-btn .call {
+    gap: 10px;
+}
+
+@media screen and (max-width:576px) {
+
+    .des,
+    .nav,
+    .skill-cont,
+    .resume-content,
+    .about-info-continer,
+    .contact-body,
+    .banner {
+        flex-direction: column;
+        padding: 10px 20px;
+        gap: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner-dis {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .about {
+        padding: 10px;
+        margin: auto;
+        justify-content: center;
+
+    }
+
+    .kiron-2 {
+        height: 50px;
+        display: none;
+    }
+
+    .banner {
+        text-align: center;
+        gap: 0;
+
+    }
+
+    .contact {
+        padding: 10px;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    nav {
+        justify-content: left;
+        margin-left: 10px;
+    }
+
+    .kiron {
+        height: 300px;
+        margin: 0;
+        margin-left: 40px;
+
+    }
+
+    .p-b {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .primary-btn {}
+
+    .dis img {
+        height: 300px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    nav {
+        margin-right: 10px;
+    }
+
+    .my-project-card {
+        width: 200px;
+        height: 300px;
+
+
+    }
+
+    .my-project-card-img {
+        width: 200px;
+        height: 300px;
+    }
+
+}
+
+.social-links {
+    gap: 10px;
+}
+
+.social-links a {
+    color: rgb(0, 255, 255);
+    font-size: 26px;
+
+}
+
+.contact-form input {
+    color: white;
+}
+
+.banner {}
+
+.from-on {
+    display: flex;
+    flex-direction: column;
+}
+
+.from-on input {
+    border-radius: 6px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 10px; */
+
+}
